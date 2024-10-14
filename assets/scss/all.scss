@@ -1,5 +1,12 @@
+@import "bootstrap/scss/function";
+
+
+//使用卡斯柏推薦的方法二(新手使用)
+
+@import "./helpers/variables";
+
+//下面為原始的import資料
 @import './layout/header.scss';
 @import './layout/footer.scss';
-
 
 @import './pages/index.scss';
